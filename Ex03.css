@@ -1,0 +1,27 @@
+.product-card {
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card .description {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-card .price {
+  color: #dc3545;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card .btn-buy {
+  background-color: #28a745;
+  color: white;
+  width: 100%;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý danh mục</title>
+    <link rel="stylesheet" href="Ex05.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quản lý danh mục</h1>
+      <div class="top-bar">
+        <button id="addCategoryBtn">Thêm mới danh mục</button>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Tìm kiếm danh mục..."
+        />
+      </div>
+      <table id="categoryTable">
+        <thead>
+          <tr>
+            <th>Mã danh mục</th>
+            <th>Tên danh mục</th>
+            <th>Trạng thái</th>
+            <th>Chức năng</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Nội dung danh mục sẽ được thêm động -->
+        </tbody>
+      </table>
+    </div>
+    <div id="modalForm" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Thêm danh mục mới</h2>
+        <form id="categoryForm">
+          <label for="categoryName">Tên danh mục:</label>
+          <input type="text" id="categoryName" required />
+          <label for="categoryStatus">Trạng thái:</label>
+          <select id="categoryStatus" required>
+            <option value="Hoạt động">Hoạt động</option>
+            <option value="Không hoạt động">Không hoạt động</option>
+          </select>
+          <button type="submit">Thêm</button>
+        </form>
+      </div>
+    </div>
+    <script src="./Ex05.js"></script>
+  </body>
+</html>

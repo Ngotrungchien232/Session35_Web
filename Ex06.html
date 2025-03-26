@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý danh mục theo trạng thái</title>
+    <link rel="stylesheet" href="Ex06.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quản lý danh mục</h1>
+      <div class="top-bar">
+        <select id="statusFilter">
+          <option value="Tất cả">Tất cả</option>
+          <option value="Đang hoạt động">Đang hoạt động</option>
+          <option value="Ngừng hoạt động">Ngừng hoạt động</option>
+        </select>
+      </div>
+      <table id="categoryTable">
+        <thead>
+          <tr>
+            <th>Mã danh mục</th>
+            <th>Tên danh mục</th>
+            <th>Trạng thái</th>
+            <th>Chức năng</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dữ liệu danh mục sẽ được thêm động -->
+        </tbody>
+      </table>
+    </div>
+    <script src="./Ex06.js"></script>
+  </body>
+</html>

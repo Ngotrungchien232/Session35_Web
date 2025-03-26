@@ -1,0 +1,32 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 200px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+td span.active {
+  color: green;
+  font-weight: bold;
+}
+
+td span.inactive {
+  color: red;
+  font-weight: bold;
+}
+
+button.edit,
+button.delete {
+  margin: 0 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
